@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "deploy": "firebase deploy --only functions"
+    "start": "node .\"index.js\""
   },
   "keywords": [],
   "author": "",
@@ -16,8 +15,6 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "firebase": "^10.9.0",
-    "firebase-functions": "^4.8.1",
     "mongoose": "^8.2.3"
   }
 }
